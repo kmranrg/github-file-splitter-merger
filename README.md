@@ -35,13 +35,13 @@ python zip_unzip_tool.py unzip my_data.zip --output ./restored_folder/
 
 ## 📂 Example Workflow
 ```bash
-zip -r my_data.zip my_folder/
+python zip_unzip_tool.py zip my_data.zip my_folder/
 python file_split_merge.py split my_data.zip
 # Upload to GitHub
 
 # Later...
 python file_split_merge.py merge my_data.zip --output my_data_restored.zip
-unzip my_data_restored.zip
+python zip_unzip_tool.py unzip my_data_restored.zip
 ```
 
 ## 😉 Author
