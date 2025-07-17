@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 A simple Python utility to split a large file into smaller chunks and merge them back.
 
